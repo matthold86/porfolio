@@ -57,7 +57,7 @@ For more or less photos, use `<a href>` tags. [Flickr](https://www.flickr.com/) 
 
 Andromeda supports custom navbar links - see [config.toml](https://github.com/Pixadus/andromeda-theme/blob/main/config.toml) for an example. You may also set a custom `favicon.ico` though `config.toml`. 
 
-If you wish to customize the design of the gallery, basic Javascript knowledge will be necessary. Andromeda uses `nanogallery2` by default - the [documentation can be found here](https://nanogallery2.nanostudio.org/documentation.html). Customizations to the gallery design are done within the `{% macro pagefooter() %}` block within `/templates/macros.html`. 
+If you wish to customize the design of the gallery, basic Javascript knowledge will be necessary. Andromeda uses `nanogallery2` by default - the [documentation can be found here](https://nanogallery2.nanostudio.org/documentation.html). Customizations to the gallery design are done within the `macro pagefooter()` block within `/templates/macros.html`. 
 
 By default, this script is divided into three sections (indicated by `item==`): single-image, two-image and three+ image gallery setups. 
 
