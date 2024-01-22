@@ -1,6 +1,6 @@
 # Site title
 title = "Matthew Holden"
-base_url = "https://matthold86.github.io/"
+base_url = "https://matthold86.github.io/portfolio"
 description = "Personal portfolio website for Matthew Holden"
 compile_sass = true
 
